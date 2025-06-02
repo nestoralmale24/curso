@@ -1,5 +1,4 @@
-Ejercito
-Ejericio general primera semana curso certificacion java 17
+Ejercicios curso certificacion java 17
 
 Despliegue 📦
 
