@@ -1,4 +1,4 @@
-package curso.curso.src.main.java.git;
+package git;
 
 public class Main {
     public static void main(String[] args) {
