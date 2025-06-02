@@ -1,0 +1,10 @@
+## TEST JAVA
+              
+- Unitarios (JUnit)
+    Finalidad probar las clases
+
+- De integración
+    Finalidad probar interacciones entre las clases
+
+- Volumetría (Mocking)
+    Finalidad probar datos grandes
