@@ -1,0 +1,2 @@
+revisar -> factory method 
+        -> Introspección
