@@ -1,12 +1,12 @@
 package com.example.lombok;
 
-import com.example.lombok.decoradores.AumentaPeso;
+import com.example.lombok.decoradores.MasMenosPeso;
 import com.example.lombok.model.Tienda;
 
 public class Main {
 	public static void main(String[] args) {
 		Tienda tienda = new Tienda();
-		AumentaPeso aumentarCliente1 = new AumentaPeso(20, "nestor", 10);
+		MasMenosPeso aumentarCliente1 = new MasMenosPeso(20, "nestor", 10);
 
 		tienda.agregarCliente(aumentarCliente1);
 
