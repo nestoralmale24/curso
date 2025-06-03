@@ -1,10 +1,19 @@
-package semana2.herencia.src.main.java.com.example;
+package com.example;
 
-import com.example.clases.AndSpecification;
-import com.example.clases.IConsumidor;
-import com.example.clases.IPredicado;
+
+import com.example.clases.Cuadrado;
 import com.example.clases.Panel;
+import com.example.clases.TipoFigura;
+import com.example.clases.consumers.ConsumidorJacinto;
+import com.example.clases.consumers.IConsumidor;
+import com.example.clases.factorias.FactoriaFiguras;
+import com.example.clases.factorias.FactoriaJacinto;
+import com.example.clases.specifications.AndSpecification;
 import com.example.clases.specifications.CompositeSpecification;
+import com.example.clases.specifications.FiltrarPorPerimetro;
+import com.example.clases.specifications.FiltrarPorSuperficie;
+import com.example.clases.specifications.IPredicado;
+import com.example.clases.specifications.OrSpecification;
 
 public class Main {
     public static void main(String[] args) {
