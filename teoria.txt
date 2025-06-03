@@ -8,3 +8,8 @@
 
 - Volumetría (Mocking)
     Finalidad probar datos grandes
+
+## TEST JAVA
+
+- Lambdas y programacion funcional
+- Revisar valores primitivos (int, long...)
