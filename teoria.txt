@@ -17,3 +17,5 @@
 
 Representacion: valores que tienen las propiedades de un objeto 
 (diferentes valores, diferentes representaciones) 
+
+import java.lang  no hace falta importar

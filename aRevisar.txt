@@ -6,3 +6,5 @@ EXAMEN
 - ENTERARSE DE SI SE PUEDE HACER EL EXAMEN EN EL CTA Y NO EN CASA
 
 - REVISAR LAS PREGUNTAS DEL EXAMEN EN INGLES
+
+https://enthuware.com/oca-ocp-java-certification-resources/270-java-foundations-exam-sample-questions
