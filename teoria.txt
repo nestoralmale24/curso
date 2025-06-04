@@ -13,3 +13,7 @@
 
 - Lambdas y programacion funcional
 - Revisar valores primitivos (int, long...)
+
+
+Representacion: valores que tienen las propiedades de un objeto 
+(diferentes valores, diferentes representaciones)
