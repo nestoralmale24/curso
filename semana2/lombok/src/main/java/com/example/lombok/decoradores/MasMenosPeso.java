@@ -4,8 +4,8 @@ import com.example.lombok.model.Clientes;
 
 public class MasMenosPeso extends  Clientes{
 
-    public MasMenosPeso(int edad, String nombre, float peso) {
-        super(edad, nombre, peso);
+    public MasMenosPeso(int edad, float peso, String nombre) {
+        super(edad, peso, nombre);
     }
 
     public float aumentaPeso(float peso) {

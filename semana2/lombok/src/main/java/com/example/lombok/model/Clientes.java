@@ -11,8 +11,8 @@ import lombok.Setter;
 @Setter
 public class Clientes {
     private int edad;
-    private String nombre;
     private float peso;
+    private String nombre;
 
     float obtenerPeso(){
         return peso;

@@ -6,7 +6,7 @@ import com.example.lombok.model.Tienda;
 public class Main {
 	public static void main(String[] args) {
 		Tienda tienda = new Tienda();
-		MasMenosPeso aumentarCliente1 = new MasMenosPeso(20, "nestor", 10);
+		MasMenosPeso aumentarCliente1 = new MasMenosPeso(20, 10, "nestor");
 
 		tienda.agregarCliente(aumentarCliente1);
 
