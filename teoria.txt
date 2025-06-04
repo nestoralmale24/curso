@@ -16,4 +16,4 @@
 
 
 Representacion: valores que tienen las propiedades de un objeto 
-(diferentes valores, diferentes representaciones)
+(diferentes valores, diferentes representaciones) 
