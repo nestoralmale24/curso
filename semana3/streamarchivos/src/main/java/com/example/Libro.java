@@ -6,9 +6,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Libro {
+public class Libro implements Serializable {
     private ArrayList<String> lineas;
 
     public Libro() {
