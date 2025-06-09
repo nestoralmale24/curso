@@ -1,45 +1,41 @@
 package com.example.clases;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+import com.example.clases.comparators.IFiguraComparador;
+import com.example.clases.consumers.IConsumidor;
+import com.example.clases.specifications.IPredicado;
 
 public class Panel extends Figura{
-    private IConsumidor Consumidor;
-    private IPredicado Filtro;
-    private int _anchura;
-    private int _altura;
-    private ArrayList<Figura> misFiguras = new ArrayList<>();
+    private IConsumidor consumidor;
+    private IPredicado filtro;
+    private IFiguraComparador comparador;
+    private Set<Figura> misFiguras = new HashSet<>();
 
-    public void add(Figura FiguraAPoner)
+    public void add(Figura figuraAPoner)
     {
-        this.misFiguras.add(FiguraAPoner);
+        this.misFiguras.add(figuraAPoner);
     }
-    public Panel(int anchura, int altura, IConsumidor Consumidor, IPredicado Filtro) {
+    public Panel(int anchura, int altura, IConsumidor consumidor, IPredicado filtro, IFiguraComparador figuraComparador) {
         super(5,5);
-        this._anchura = anchura;
-        this._altura = altura;
-        this.Consumidor = Consumidor;
-        this.Filtro = Filtro;
+        this.consumidor = consumidor;
+        this.filtro = filtro;
+        this.comparador = figuraComparador;
     }
     public void muestraColeccion()
     {
-        var misFiguras2 = misFiguras.stream().filter(this.Filtro::filtrar);
-        misFiguras2.forEach(this.Consumidor::consume);
+        var coleccion = misFiguras.stream().sorted(this.comparador::ordena);
+        var misFiguras2 = coleccion.toList().stream().filter(this.filtro::filtrar);
+        misFiguras2.forEach(this.consumidor::consume);
     }
     @Override
     public double dameSuperficie() {
-        double superficie = 0;
-        //misFiguras.stream().mapToDouble(x->x.dameSuperficie()).sum();
-
-        for (var FiguraRecorrida : misFiguras) {
-            superficie=superficie+FiguraRecorrida.dameSuperficie();
-        }    
-        return superficie;
+        return misFiguras.parallelStream().mapToDouble(x->x.dameSuperficie()).sum();
     }
     @Override
     public double damePerimetro() {
         double perimetro = 0;
-        //misFiguras.stream().mapToDouble(x->x.dameSuperficie()).sum();
-
         for (var FiguraRecorrida : misFiguras) {
             perimetro+=FiguraRecorrida.damePerimetro();
         }    
@@ -47,6 +43,6 @@ public class Panel extends Figura{
     }
     @Override
     public String damePintura() {
-        return "azul";
+        return "azul"+Figura.numeroDeFiguras;
     }
 }

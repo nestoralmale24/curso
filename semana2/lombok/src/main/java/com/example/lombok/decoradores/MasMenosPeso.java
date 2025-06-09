@@ -2,7 +2,7 @@ package com.example.lombok.decoradores;
 
 import com.example.lombok.model.Clientes;
 
-public class MasMenosPeso extends  Clientes{
+public class MasMenosPeso extends Clientes{
 
     public MasMenosPeso(int edad, float peso, String nombre) {
         super(edad, peso, nombre);

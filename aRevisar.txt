@@ -8,3 +8,13 @@ EXAMEN
 - REVISAR LAS PREGUNTAS DEL EXAMEN EN INGLES
 
 https://enthuware.com/oca-ocp-java-certification-resources/270-java-foundations-exam-sample-questions
+
+
+
+A REVISAR PARA HACER EJERCICIOS
+----------------------------------------------
+https://github.com/deepcloudlabs/stream-api-exercises-part1
+
+https://www.w3resource.com/java-exercises/lambda/index.php
+
+https://www.w3resource.com/java-exercises/stream/index.php#google_vignette
