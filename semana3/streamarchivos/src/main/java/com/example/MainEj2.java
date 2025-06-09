@@ -6,9 +6,10 @@ import java.io.IOException;
 public class MainEj2 {
     public static void main(String[] args) {
         Libro miLibro = new Libro();
-        Linea miLinea = new Linea("prueba 2 nestor", 2 );
+        int numCaracter = 0;
+        Linea miLinea = new Linea("prueba 2 nestor", numCaracter);
 
-        int numCaracter = miLinea.texto.getBytes().length;
+        numCaracter = miLinea.texto.getBytes().length;
         System.out.println(numCaracter);
 
 
