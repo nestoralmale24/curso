@@ -26,4 +26,6 @@ public class Circulo extends Figura{
     public double damePerimetro() {
         return 2*Math.PI*radio;
     }
+
+    
 }

@@ -23,6 +23,4 @@ public class Cuadrado extends Figura{
     public double damePerimetro() {
         return this.lado*4;
     }
-
-
 }
