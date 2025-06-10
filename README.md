@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
-3. [Collaboration](#author)
+3. [Author](#author)
 
 
 ### General Info
