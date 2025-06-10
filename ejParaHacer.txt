@@ -1,0 +1,11 @@
+nio - files.
+
+Crear una clase denominada ficheros, tendrá métodos para:
+- saber cual es tu home.
+una vez que lo sepais.
+Copiar los cuatro ficheros fichero01.txt, fichero02.txt, fichero03.txt y fichero04.txt
+- Comprobar que existe un fichero en el home. por ejemplo el fichero02.txt
+- Borrar los ficheros fichero01.txt y fichero03.txt
+- Crear un directorio denominado filtro. en Ese directorio tendremos que mover fichero02.txt y copiar fichero04.txt
+- Crear una copia del directorio filtro y llamarlo filtro2.
+- Borrar dentro del home el fichero04.txt
