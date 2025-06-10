@@ -18,3 +18,13 @@ https://github.com/deepcloudlabs/stream-api-exercises-part1
 https://www.w3resource.com/java-exercises/lambda/index.php
 
 https://www.w3resource.com/java-exercises/stream/index.php#google_vignette
+
+A REVISAR TEORIA
+----------------------------------------------
+
+Serializable, como se funciona, como se comporta.
+
+
+// si no pones los close en un FileOutput no hay fallo de compilacion pero el archivo nunca se cerrará
+oos.close();
+fos.close();  
