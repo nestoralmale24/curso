@@ -19,3 +19,5 @@ Representacion: valores que tienen las propiedades de un objeto
 (diferentes valores, diferentes representaciones) 
 
 import java.lang  no hace falta importar
+
+en los case en java 17 no hace falta case 1: case 2: con pones case: 1,2,3 sobra
